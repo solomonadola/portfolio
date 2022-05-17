@@ -1,5 +1,7 @@
 <template>
-    <div class="container flex flex-wrap justify-between items-center mx-auto " data-aos="zoom-out-left">
+    <div class="container flex flex-wrap justify-between items-center mx-auto " data-aos="zoom-out-left"
+        data-aos-offset="200" data-aos-delay="500" data-aos-duration="2000" data-aos-easing="ease-in-out"
+        data-aos-mirror="true" data-aos-once="false">
         <div>
             <a href="#" class="flex items-center py-1">
                 <span
@@ -41,17 +43,18 @@
                         class="block py-2  pr-4 pl-3 text-gray-500 border-b-2 font-semibold rounded-xl hover:text-green-500 transition duration-300 shadow-lg hover:shadow-red-600">About</a>
                 </li>
                 <li>
-                    <a href="#"
+                    <a href="#resume"
                         class="block py-2  pr-4 pl-3 text-gray-500 border-b-2 font-semibold rounded-xl hover:text-green-500 transition duration-300 shadow-lg hover:shadow-red-600">Resume</a>
                 </li>
 
                 <li>
-                    <a href="#"
+                    <a href="#services"
                         class="block py-2  pr-4 pl-3 text-gray-500 border-b-2 font-semibold rounded-xl hover:text-green-500 transition duration-300 shadow-lg hover:shadow-red-600">Services</a>
                 </li>
+               
                 <li>
-                    <a href="#"
-                        class="block py-2  pr-4 pl-3 text-gray-500 border-b-2 font-semibold rounded-xl hover:text-green-500 transition duration-300 shadow-lg hover:shadow-red-600">Works</a>
+                    <a href="#contact"
+                        class="block py-2  pr-4 pl-3 text-gray-500 border-b-2 font-semibold rounded-xl hover:text-green-500 transition duration-300 shadow-lg hover:shadow-red-600">Contact</a>
                 </li>
             </ul>
         </div>

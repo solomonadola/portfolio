@@ -13,7 +13,7 @@
                     style="color: transparent; -webkit-text-stroke: 1px #22852e; padding-right: 25px; "
                     data-aos="zoom-out-left">Solomon A.</h1>
                 <h1>
-                    <span class="text-green-700" style="font-size: 3rem; ">
+                    <span class="text-green-700 text-5xl"  >
                         {{ typeValue }}
                     </span>
                     <span class="inline-block ml-1 w-1 bg-green-700 cursor" :class="{ 'typing': typingStatus }">

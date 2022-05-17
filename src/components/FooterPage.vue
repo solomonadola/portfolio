@@ -1,6 +1,8 @@
 <template>
-    <div class="grid grid-cols-1 gap-8 py-8 px-6 sm:grid-cols-3 justify-items-center"  data-aos="zoom-out">
-        <div class="ml-20" >
+    <div class="grid grid-cols-1 gap-8 py-8 px-6 sm:grid-cols-3 justify-items-center" data-aos="zoom-out"
+        data-aos-offset="200" data-aos-delay="300" data-aos-duration="2000" data-aos-mirror="true"
+        data-aos-once="false">
+        <div class="ml-20">
             <h2 class="mb-6 text-lg font-bold text-white uppercase">Contact Me</h2>
             <ul class="text-white">
                 <li class="mb-4 flex space-x-5 items-center">
@@ -57,7 +59,7 @@
         <div class="ml-6">
             <h2 class="mb-6 text-lg font-bold text-white uppercase">Follow</h2>
             <ul class="text-gray-300 flex justify-center space-x-2">
-               
+
 
                 <li class="mb-4 border-2 border-gray-600 p-2 rounded-full hover:border-white">
                     <a href="#" class="text-gray-400 hover:text-white">
